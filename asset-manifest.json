@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/reg-components/static/css/main.05461ea4.chunk.css",
+    "main.js": "/reg-components/static/js/main.28080d6a.chunk.js",
+    "main.js.map": "/reg-components/static/js/main.28080d6a.chunk.js.map",
+    "runtime-main.js": "/reg-components/static/js/runtime-main.28bf08d2.js",
+    "runtime-main.js.map": "/reg-components/static/js/runtime-main.28bf08d2.js.map",
+    "static/js/2.5e5a237d.chunk.js": "/reg-components/static/js/2.5e5a237d.chunk.js",
+    "static/js/2.5e5a237d.chunk.js.map": "/reg-components/static/js/2.5e5a237d.chunk.js.map",
+    "index.html": "/reg-components/index.html",
+    "precache-manifest.d29554bda5d30f09d15f9b788d9ef250.js": "/reg-components/precache-manifest.d29554bda5d30f09d15f9b788d9ef250.js",
+    "service-worker.js": "/reg-components/service-worker.js",
+    "static/css/main.05461ea4.chunk.css.map": "/reg-components/static/css/main.05461ea4.chunk.css.map",
+    "static/js/2.5e5a237d.chunk.js.LICENSE.txt": "/reg-components/static/js/2.5e5a237d.chunk.js.LICENSE.txt",
+    "static/media/sliceButton.module.scss": "/reg-components/static/media/FiraSans-Light.03422917.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.28bf08d2.js",
+    "static/js/2.5e5a237d.chunk.js",
+    "static/css/main.05461ea4.chunk.css",
+    "static/js/main.28080d6a.chunk.js"
+  ]
+}
