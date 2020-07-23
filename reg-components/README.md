@@ -6,12 +6,12 @@ Simple common boilerplate front-end patterns to make life easy.
 
 Use the package manager npm to install reg-components.
 
-```bash
+```js
 npm install reg-components
 ```
 ## Usage
 
-```react
+```JSX
 import SliceButton from 'reg-components'
 
 const App = () => {
