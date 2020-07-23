@@ -19,6 +19,9 @@ const App = () => {
 }
 ```
 
+## Demo
+ http://reggieanim.github.io/reg-components
+
 # Components
 
 ## SliceButton
