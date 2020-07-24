@@ -12,7 +12,7 @@ npm install reg-components
 ## Usage
 
 ```JSX
-import SliceButton from 'reg-components'
+import { SliceButton } from 'reg-components'
 
 const App = () => {
     return <SliceButton/>
