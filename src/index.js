@@ -6,7 +6,7 @@ import * as serviceWorker from './serviceWorker';
 import SliceButton  from "./Components/SliceButton";
 
 //exports
-export default SliceButton 
+export { SliceButton }
 
 ReactDOM.render(
   <React.StrictMode>
