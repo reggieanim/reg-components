@@ -1,8 +1,17 @@
 {
   "homepage": "http://reggieanim.github.io/reg-components",
   "name": "reg-components",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.2.22",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "babel": {
+    "presets": [
+      "react",
+      "env",
+      "stage-2"
+    ]
+  },
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -16,6 +25,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
+    "parse": "SET NODE_ENV=production && rm -rf dist && mkdir dist && npx babel src --out-dir dist --copy-files",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -23,6 +33,7 @@
   "eslintConfig": {
     "extends": "react-app"
   },
+  
   "browserslist": {
     "production": [
       ">0.2%",
@@ -36,6 +47,11 @@
     ]
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-react-app": "^9.1.2",
+    "babel-preset-stage-2": "^6.24.1",
     "gh-pages": "^3.1.0"
   }
 }
